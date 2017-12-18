@@ -1,2 +1,2 @@
 # Hackerrank
-The repository offer solution of some of the Hackerrank' challenges
+The repository offer solution for some of the Hackerrank' challenges
