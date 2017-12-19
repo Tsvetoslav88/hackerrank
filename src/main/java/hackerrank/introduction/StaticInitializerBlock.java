@@ -2,6 +2,11 @@ package hackerrank.introduction;
 
 import java.util.Scanner;
 
+/**
+ * https://www.hackerrank.com/challenges/java-static-initializer-block/problem
+ * @author cpt2tts
+ *
+ */
 public class StaticInitializerBlock {
 
 	static Scanner scanner = new Scanner(System.in);
@@ -20,6 +25,8 @@ public class StaticInitializerBlock {
 
 		} catch (Exception e) {
 			System.out.println(e);
+		}finally {
+			scanner.close();
 		}
 
 	}
