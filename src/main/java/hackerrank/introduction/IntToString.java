@@ -2,6 +2,11 @@ package hackerrank.introduction;
 
 import java.util.Scanner;
 
+/**
+ * https://www.hackerrank.com/challenges/java-int-to-string/problem
+ * @author cpt2tts
+ *
+ */
 public class IntToString {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
