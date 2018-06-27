@@ -1,4 +1,4 @@
-package hackerrank.datastructure;
+package java;
 
 import java.util.Scanner;
 

@@ -1,10 +1,13 @@
-package hackerrank.datastructure;
+package java;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.util.Scanner;
 
+/*
+ * https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem?h_l=playlist&slugs%5B%5D%5B%5D=interview&slugs%5B%5D%5B%5D=interview-preparation-kit&slugs%5B%5D%5B%5D=arrays
+ */
 public class LeftRotation {
 	private static final Scanner scanner = new Scanner(System.in);
 
