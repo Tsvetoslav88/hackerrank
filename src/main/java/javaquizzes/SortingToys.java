@@ -24,22 +24,25 @@ public class SortingToys {
 	// Complete the maximumToys function below.
     static int maximumToys(int[] prices, int k) {
     	
+    	
+    	//Sorting price by ascending order
     	Arrays.sort(prices);
     	
     	int maxNumberOfToys = 0;
     	
-    	if(prices[1]>k) {
+    	//Check if the money are not enough for cheapest toy
+    	if(prices[0]>k) {
     		return maxNumberOfToys;
     	}else {
     		maxNumberOfToys=1;
-    		k = k - prices[1];
+    		k = k - prices[0];
     	}
     	
     	
-    	for(int i=0; i<prices.length-1; i++) {
-    		if(prices[i]+prices[i+1] < k) {
+    	for(int i=1; i<prices.length; i++) {
+    		if(prices[i] <= k) {
     			maxNumberOfToys++;
-    			k = k - prices[i+1];
+    			k = k - prices[i];
     		}
     	}
     	return maxNumberOfToys;
