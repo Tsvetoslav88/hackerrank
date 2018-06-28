@@ -1,4 +1,4 @@
-package java;
+package javaquizzes;
 
 import java.util.HashMap;
 import java.util.Map;

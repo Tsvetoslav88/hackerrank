@@ -1,4 +1,4 @@
-package java;
+package javaquizzes;
 
 import java.util.Scanner;
 import java.util.regex.Pattern;

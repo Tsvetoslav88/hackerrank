@@ -1,4 +1,4 @@
-package java;
+package javaquizzes;
 
 import java.io.BufferedWriter;
 import java.io.IOException;

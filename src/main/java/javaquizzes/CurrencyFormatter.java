@@ -1,4 +1,4 @@
-package java;
+package javaquizzes;
 
 import java.text.NumberFormat;
 import java.util.Locale;
