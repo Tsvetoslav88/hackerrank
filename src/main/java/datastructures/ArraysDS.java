@@ -1,4 +1,4 @@
-package javaquizzes;
+package datastructures;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

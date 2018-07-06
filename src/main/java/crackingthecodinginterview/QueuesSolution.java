@@ -1,4 +1,4 @@
-package javaquizzes;
+package crackingthecodinginterview;
 
 import java.util.Scanner;
 
