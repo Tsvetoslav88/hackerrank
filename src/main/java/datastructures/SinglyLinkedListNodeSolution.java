@@ -1,4 +1,4 @@
-package crackingthecodinginterview;
+package datastructures;
 
 import java.io.BufferedWriter;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package crackingthecodinginterview;
+package algorithms;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -19,7 +19,7 @@ import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
  * 
  *
  */
-public class SortingToys {
+public class MarkAndToysSorting {
 	
 	// Complete the maximumToys function below.
     static int maximumToys(int[] prices, int k) {
