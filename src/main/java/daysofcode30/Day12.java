@@ -2,6 +2,12 @@ package daysofcode30;
 
 import java.util.Scanner;
 
+/**
+ * https://www.hackerrank.com/challenges/30-inheritance/problem
+ * 
+ * @author TSVETOSLAV
+ *
+ */
 class Person {
 	protected String firstName;
 	protected String lastName;
