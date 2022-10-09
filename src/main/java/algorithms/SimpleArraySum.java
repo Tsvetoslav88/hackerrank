@@ -1,18 +1,25 @@
-https://www.hackerrank.com/challenges/simple-array-sum/problem
+package algorithms;
+
+/**
+ * Given an array of integers, find the sum of its elements, arr = [1,2,3], 1 + 2 + 3 = 6, so return 6
+ * For example, if the array , , so return .
+ *
+ * Function Description
+ * Complete the simpleArraySum function in the editor below. It must return the sum of the array elements as an integer.
+ * simpleArraySum has the following parameter(s):
+ * ar: an array of integers
+ *
+ * URL - https://www.hackerrank.com/challenges/simple-array-sum/problem
+ *
+ */
 
 import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.function.*;
-import java.util.regex.*;
-import java.util.stream.*;
-import static java.util.stream.Collectors.joining;
+import java.util.List;
+import java.util.stream.Stream;
+
 import static java.util.stream.Collectors.toList;
 
-class Result {
+class SimpleArraySum {
 
     /*
      * Complete the 'simpleArraySum' function below.
@@ -40,8 +47,8 @@ public class Solution {
         int arCount = Integer.parseInt(bufferedReader.readLine().trim());
 
         List<Integer> ar = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
-            .map(Integer::parseInt)
-            .collect(toList());
+                .map(Integer::parseInt)
+                .collect(toList());
 
         int result = Result.simpleArraySum(ar);
 
@@ -52,3 +59,4 @@ public class Solution {
         bufferedWriter.close();
     }
 }
+
