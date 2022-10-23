@@ -6,8 +6,6 @@ import java.io.OutputStreamWriter;
 import java.util.Arrays;
 import java.util.Scanner;
 
-import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
-
 /**
  * Given a list of prices and an amount to spend, what is the maximum number of
  * toys Mark can buy? For example, if prices = [1,2,3,4] and Mark has k=7 to

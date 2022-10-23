@@ -7,7 +7,6 @@ import java.util.Queue;
 import java.util.Scanner;
 import java.util.Stack;
 
-import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List;
 
 /**
  * https://www.hackerrank.com/challenges/balanced-brackets/problem?h_l=playlist&slugs%5B%5D=interview&slugs%5B%5D=interview-preparation-kit&slugs%5B%5D=stacks-queues
